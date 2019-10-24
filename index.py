@@ -15,6 +15,6 @@ __all__ = [os.path.basename(f)[:-3] for f in glob.glob(os.path.dirname(__file__)
 
 from flask import Blueprint
 
-ratp = Blueprint('ratp', __name__, url_prefix='/ratp', template_folder='templates')
+ratp = Blueprint('ratp', __name__, url_prefix='/ratp', template_folder='templates', static_folder='static')
 
 from ratp_skill.controllers import *

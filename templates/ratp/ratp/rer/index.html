@@ -1,0 +1,12 @@
+{% extends "layout/default.html" %}
+
+{% set title = _("RER") %}
+
+{% block body %}
+
+<br>
+<a href="{{ url_for('ratp.rer', name='A') }}"><img width="200px" height="200" src="{{ url_for('ratp.static', filename='ratp/img/RERA.jpg') }}"></a>
+<a href="{{ url_for('ratp.rer', name='B') }}"><img width="200px" height="200" src="{{ url_for('ratp.static', filename='ratp/img/RERB.jpg') }}"></a>
+
+
+{% endblock %}

@@ -1,11 +1,11 @@
 {% extends "layout/default.html" %}
 
-{% set title = _("RATP") %}
+{% set title = _("Transport") %}
 
 {% block body %}
 
-  <div class="card-panel white">
-    <h1>RATP Main Page</h1>
-  </div>
+<br>
+<a href="{{ url_for('ratp.metros') }}" class="waves-effect waves-light btn {{ g.color }}">Metro</a>
+<a href="{{ url_for('ratp.rers') }}" class="waves-effect waves-light btn {{ g.color }}">RER</a>
 
 {% endblock %}
