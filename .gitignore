@@ -1,0 +1,8 @@
+*.py[co]
+__pycache__
+*.pyc
+.cache
+
+*.mo
+venv
+dist

@@ -1,0 +1,14 @@
+{
+  "name": "RATP",
+  "raw": "ratp_skill",
+  "version": "1.0.0",
+  "description":"RATP schedules",
+  "packages":[],
+  "dependencies": [],
+  "author":"Cassim Khouani",
+  "license": "Creative Commons 3.0 France",
+  "navbar":"True",
+  "data":"False",
+  "index":"ratp.index",
+  "config":"ratp.config"
+}
